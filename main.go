@@ -7,6 +7,11 @@ import (
 	"strings"
 )
 
+//A palavra a ser advinhada precisa ser digitada por linha de comando
+//Exemplo : go run main.go teste
+//A palavra a ser advinhada será "teste" nesse caso
+//Número máximo de tentativas = 6
+
 func main() {
 	if len(os.Args) != 2 {
 		fmt.Println("Digite a palavra a ser adivinhada.")
