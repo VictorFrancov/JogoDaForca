@@ -70,6 +70,8 @@ func main() {
 		}
 
 	}
+	fmt.Println("Digite Enter para sair!")
+	fmt.Scanln()
 }
 
 func lerEntrada() (string, error) {
